@@ -3,10 +3,13 @@
     --secondary-color: #E81F63;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body, body * {
+box-sizing: border-box; 
+margin: 0;
+padding: 0;
+}
+
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
