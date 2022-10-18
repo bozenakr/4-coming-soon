@@ -2,7 +2,7 @@
 
 _First responsive website project_
 
-This project is for educational porpuses only.
+This project is for educational purposes only.
 
 Site published at: https://bozenakr.github.io/4-coming-soon/
 
