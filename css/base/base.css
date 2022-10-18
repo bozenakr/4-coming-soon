@@ -1,7 +1,8 @@
 :root {
     --primary-color: #03A9F4;
     --secondary-color: #E81F63;
-    --grey-text-color: #AEAFB4;
+    --grey-bright: #AEAFB4;
+    --grey-dark: rgb(113, 107, 107);
 }
 
 body, body * {
