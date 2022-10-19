@@ -1,0 +1,61 @@
+.hero {
+    height: 100vh;
+    text-align: center;
+}
+
+.hero > .row-short {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo {
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    font-size: 60px;
+}
+.main-description {
+    font-size: 20px;
+    color: var(--grey-bright);
+}
+
+.clock {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: var(--grey-dark);
+}
+
+.section-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.section-description > a:hover {
+    text-decoration: underline;
+}
