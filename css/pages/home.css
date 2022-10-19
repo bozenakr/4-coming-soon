@@ -59,3 +59,8 @@
 .section-description > a:hover {
     text-decoration: underline;
 }
+
+footer.container {
+    padding-top: 0;
+    text-align: center;
+}
