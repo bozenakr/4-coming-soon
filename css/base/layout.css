@@ -1,5 +1,6 @@
 body {
     display: inline-block;
+    width: 100%;
     margin:0;
 }
 
@@ -18,6 +19,7 @@ main {
     float: left;
     width: 1000px;
     margin-left: calc(50% - 500px);
+    margin-right: calc(50% - 500px);
     background-color: rgb(241, 235, 172);
 }
 
@@ -50,6 +52,7 @@ main {
     .row {
         width: 800px;
         margin-left: calc(50% - 400px);
+        margin-right: calc(50% - 400px);
     }
 }
 
@@ -58,6 +61,7 @@ main {
     .row {
         width: 600px;
         margin-left: calc(50% - 300px);
+        margin-right: calc(50% - 300px);
     }
     .main-content {
         /* flex-wrap: wrap; */
@@ -76,6 +80,7 @@ main {
     .row-short {
         width: 400px;
         margin-left: calc(50% - 200px);
+        margin-right: calc(50% - 200px);
     }
 }
 
@@ -87,7 +92,7 @@ main {
     .row,
     .row-short {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
     }
 }
 
