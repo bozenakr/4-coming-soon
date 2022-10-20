@@ -5,6 +5,10 @@
     --grey-dark: rgb(113, 107, 107);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, body * {
     box-sizing: border-box; 
     margin: 0;
