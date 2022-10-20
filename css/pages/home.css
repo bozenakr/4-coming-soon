@@ -1,16 +1,19 @@
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     background-image: url(../../img/background.png);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; ---> cover automatiskai uzpildo viska, nera prasmes det repeat*/
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; ---> cover automatiskai uzpildo viska, nera prasmes deti repeat*/
+
 }
 
 .hero > .row-short {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center;
 }
 
 .logo {
@@ -28,6 +31,7 @@
 }
 
 .clock {
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
 }

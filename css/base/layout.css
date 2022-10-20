@@ -8,11 +8,12 @@ main {
     width: 100%;
     float: left;
 }
+
 .container {
     float: left;
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .row {
