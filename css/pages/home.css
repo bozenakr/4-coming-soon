@@ -1,6 +1,10 @@
 .hero {
     height: 100vh;
     text-align: center;
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; ---> cover automatiskai uzpildo viska, nera prasmes det repeat*/
 }
 
 .hero > .row-short {
@@ -101,9 +105,16 @@ footer > a:hover {
 }
 
 @media (max-width: 700px) {
+    .main-title {
+        font-size: 40px;
+    }
     .bottom-trio {
         flex-direction: column;
         gap: 0;
-    
     }
+    .bottom-trio > span::after {
+        display: none;
+    }
+
+
 }

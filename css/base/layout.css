@@ -20,14 +20,12 @@ main {
     width: 1000px;
     margin-left: calc(50% - 500px);
     margin-right: calc(50% - 500px);
-    background-color: rgb(241, 235, 172);
 }
 
 .row-short {
     float: left;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: rgb(232, 158, 215);
 }
 
 .main-content {
@@ -38,13 +36,10 @@ main {
 
 .left-column {
     width: 50%;
-    background-color: rgb(170, 120, 217);
-
 }
 
 .right-column {
     width: 40%;
-    background-color: rgb(170, 120, 217)
 }
 
 
